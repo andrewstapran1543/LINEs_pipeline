@@ -1,5 +1,5 @@
 ### LINEs_pipeline
-This repository describes the analysis pipeline for finding new retroelement-based cancer specific antigens</b>
+This repository describes the analysis pipeline for finding new retroelement-based cancer specific antigens<br/>
 Below is the outline of how the analysis proceeds, and in the folders you can find:
 <ul>
   <li>Reference fasta and bed files for LINE retroelements</li>
