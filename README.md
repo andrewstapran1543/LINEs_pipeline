@@ -19,4 +19,12 @@ Folder <a href="https://github.com/andrewstapran1543/LINEs_pipeline/tree/main/SC
 <li><b>cont_assembler.py</b> - this script combines three previous scripts together - integrator, calculator, peptide_mapper. Takes in the following parameters: 1) location of the input read number file (for each sample), 2) location of the file where tumor-normal samples are decribed, 3) experiment_id (how the folder with analysis files is called), 4) threshold for how many pairs out of total tumor-normal pairs have considered position overexpressed in tumor compared to normal tissue, 5) threshold for how long an overexpressed region should be (in nucleotides), 6) MAPPING MODE for blast - RELAXED or STRINGENT</li>
 </ul>
 The preliminary results for four cancer types (colorectal, renal, kidney, and prostate) can be found <a href="https://github.com/andrewstapran1543/LINEs_pipeline/tree/main/RESULTS">here</a><br/><br/>
+Here is the list of RNA-seq datasets used for the analysis:
+<ul>
+  <li><a href="https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=149603">PROSTATE cancer</a> - PE sequencing</li>
+  <li><a href="https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=24446862">KIDNEY cancer</a> - PE sequencing</li>
+  <li><a href="https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=39868">HBV-related hepatocellualr carcinoma</a> - SE sequencing</li>
+  <li>Colorectal cancer - dataset from the laboratory</li>
+</ul>
+Trimmed reads for all datasets can be found at the following address on the server: <i>/ngs/2023/02_rnaseq_datasets_Stapran/</i><br/><br/>
 <b><i>IMPORTANTLY!!!</i></b><br/>Change the paths to folders in the <a href="https://github.com/andrewstapran1543/LINEs_pipeline/tree/main/SCRIPTS">scripts</a> before running them
