@@ -6,4 +6,5 @@ Below is the outline of how the analysis proceeds, and in the folders you can fi
   <li>Reference MHC-immunopeptidome with description of datasets used for antigen search</li>
   <li>Scripts that were used for the different steps of the analysis</li>
 </ul>
-<img src=https://github.com/andrewstapran1543/LINEs_pipeline/blob/main/analysis_outline.png width="350" title="hover text">
+Below is the outline of the analysis pipeline:
+<img src=https://github.com/andrewstapran1543/LINEs_pipeline/blob/main/analysis_outline.png width="600">
